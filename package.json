@@ -17,6 +17,7 @@
     "web-vitals": "^1.0.1",
     "yelp-fusion": "^3.0.0"
   },
+  "proxy": "https://api.yelp.com/v3",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

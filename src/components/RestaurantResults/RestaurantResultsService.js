@@ -13,7 +13,7 @@ const fetchRestaurants = async (yelpRequestData) => {
   }, {});
 
   const response = await axios.get(
-    `/cors-proxy/https://api.yelp.com/v3/businesses/search?categories=${getTopCategories(
+    `/businesses/search?categories=${getTopCategories(
       sortCategories
     ).toString()}&radius=${yelpRequestData.maxDistance}&longitude=${
       yelpRequestData.lon

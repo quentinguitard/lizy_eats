@@ -18,7 +18,7 @@ export default function AddPeople({ setAddPeople, setPeople, people }) {
 
   useEffect(() => {
     const getCategories = async () => {
-      const response = await axios.get("/yelpCategories/", {
+      const response = await axios.get("/v3/categories", {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_YELP_API_KEY}`,
           withCredentials: true,

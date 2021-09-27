@@ -1,0 +1,16 @@
+.category-pellet {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding : 12px;
+  border: 2px solid #ff006e;
+  border-radius: 8px;
+
+  p {
+    margin: 0
+  }
+  i {
+    color: #ff006e;
+    cursor: pointer;
+  }
+}

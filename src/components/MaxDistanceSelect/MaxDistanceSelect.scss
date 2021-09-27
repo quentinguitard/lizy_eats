@@ -1,0 +1,22 @@
+.max-distance-select {
+
+  .rc-slider-handle {
+    border: 2px solid rgb(255, 0, 110);
+  }
+  .rc-slider-handle-click-focused {
+    box-shadow: none;
+  }
+  .rc-slider-handle:active {
+    box-shadow: none;
+    border: 4px solid rgb(255, 0, 110);
+    top: 0;
+    width: 24px;
+    height: 24px;
+  }
+  .rc-slider-track {
+    background: rgb(255, 0, 110);
+  }
+  .rc-slider-rail {
+    height: 2px;
+  }
+}

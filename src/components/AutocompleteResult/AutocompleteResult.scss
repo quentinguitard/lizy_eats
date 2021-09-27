@@ -1,0 +1,15 @@
+.autocomplete-result {
+  list-style-type: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid rgb(236, 236, 238);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.autocomplete-result:hover {
+  background: rgb(236, 236, 238);
+}

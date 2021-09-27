@@ -1,0 +1,28 @@
+.peoples-input {
+
+  .people {
+    display: flex;
+    align-items: center;
+
+    i{
+      margin-left: 12px;
+      cursor: pointer;
+      color: #ff006e;
+    }
+  }
+
+  .add-people-btn {
+    display: flex;
+    justify-content: center;
+
+    button {
+      background: #ff006e;
+      padding: 10px;
+      color: white;
+      border: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  }
+}

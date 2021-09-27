@@ -8,7 +8,7 @@ import inputValidation from "../../service/inputValidation";
 
 export default function SearchForm({ setYelpRequestData, setSearchIsEnable }) {
   const [coordinate, setCoordinate] = useState({ lon: null, lat: null });
-  const [maxDistance, setMaxDistance] = useState(0);
+  const [maxDistance, setMaxDistance] = useState(1);
   const [priceRange, setPriceRange] = useState(1);
   const [people, setPeople] = useState([]);
   const [errorMessage, setErrorMessage] = useState({
@@ -53,7 +53,10 @@ export default function SearchForm({ setYelpRequestData, setSearchIsEnable }) {
           />
         </div>
         <div className="margin-bottom-40">
-          <MaxDistanceSelect setMaxDistance={setMaxDistance} />
+          <MaxDistanceSelect
+            maxDistance={maxDistance}
+            setMaxDistance={setMaxDistance}
+          />
         </div>
         <div className="margin-bottom-40">
           <PriceRangeSelect

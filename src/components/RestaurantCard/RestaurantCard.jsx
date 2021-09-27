@@ -21,6 +21,7 @@ export default function RestaurantCard({ restaurantData }) {
       />
       <div className="restaurant-data">
         <h1 className="title">{restaurantData.name}</h1>
+        <p>{`Rating : ${restaurantData.rating} / 5`}</p>
         <p className="phone">{restaurantData.display_phone}</p>
         <p>{restaurantData.location.display_address.toString()}</p>
         <div className="categories">{restaurantCategories}</div>

@@ -14,7 +14,8 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "sass": "^1.42.1",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yelp-fusion": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +24,6 @@
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
   },
-  "proxy": "https://api.yelp.com",
   "eslintConfig": {
     "extends": [
       "react-app",

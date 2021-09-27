@@ -2,8 +2,8 @@
   publish = "build"
 
 [[redirects]]
-  from = "/yelp/*"
-  to = "https://api.yelp.com/v3"
+  from = "/cors-proxy/*"
+  to = ":splat"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+  force= true
+  headers = {Access-Control-Allow-Origin = "*"}
